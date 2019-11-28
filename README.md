@@ -3,7 +3,8 @@ Serial communication between two Vertex 6 FPGA using vertex 6 GTx IP core. Simul
 
 To Run
 First change the directory to /vertex6_gtx_tx_component/simulation/functional/
-Then in Xilinx ISE Cmd 
+
+Then in Xilinx ISE Cmd type
 ./simulate_isim.sh
 
 
