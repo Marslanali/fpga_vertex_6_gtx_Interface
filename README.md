@@ -1,2 +1,2 @@
 # FPGA-Vertex-6-GTx-Interface
-Vertex 6 FPGA GTx Transciever Simulation in Xilinx ISE 14.1 using Xilinx IP Core
+Serial communication between two Vertex 6 FPGA using vertex 6 GTx IP core. Simulation is done in Xilinx ISE 14.1 simualtor.
