@@ -19,7 +19,7 @@ Then in Xilinx ISE Cmd type
 ./simulate_isim.sh
 ```
 
-### Reference and Additional Material
+### References and Additional Material
 
 Please check the following resource for better understanding of this repository.
 
