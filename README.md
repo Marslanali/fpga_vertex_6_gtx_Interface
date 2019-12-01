@@ -2,7 +2,12 @@
 
 Serial communication between two Vertex 6 FPGA using vertex 6 GTx IP core. Simulation is done in Xilinx ISE 14.1 simualtor. Output waveforms are in the steps folder.
 
+The design uses Block RAM based frame generators which provide incremental test data (HEX format) to the GTXs for transmission. You can modify the data transmitted by changing the INIT values of the frame generator in vertex6_gtx_tx_component_top.v & vertex6_gtx_rx_component_top.v files. 
+
 ### Running the code
+
+The simualtion is tested with test data saved in blocked RAM
+
 First change the directory to 
 ```
 /vertex6_gtx_tx_component/simulation/functional/
@@ -14,4 +19,21 @@ Then in Xilinx ISE Cmd type
 ./simulate_isim.sh
 ```
 
-Open an issue on this repository if you face any difficulty or drop an email at arslanali800@hotmail.com
+### Reference and Additional Material
+
+Please check the following resource for better understanding of this repository.
+
+For Vertex-6 FPGA GTx Transcieiver, check the following guide
+
+https://www.xilinx.com/support/documentation/user_guides/ug366.pdf
+
+For using the IP core for Vertex-6 GTx, check LogiCORE™ IP Virtex®-6 FPGA GTX Transceiver Wizard.
+
+https://www.xilinx.com/support/documentation/ip_documentation/ug516_v6_gtxwizard.pdf
+
+For using Block RAM of Vertex-6, check the following guide
+
+https://www.xilinx.com/support/documentation/user_guides/ug363.pdf
+
+
+If you face any difficulty open an issue on this repositroy or drop an email at arslanali800@hotmail.com.
