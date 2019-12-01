@@ -6,7 +6,7 @@ The design uses Block RAM based frame generators which provide incremental test 
 
 ### Running the code
 
-Test bench for this design is in simualtion folder with name top_test_bench.v 
+Test bench for this design is in simualtion folder with ```name top_test_bench.v``` 
 
 First change the directory to 
 ```
