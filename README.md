@@ -1,6 +1,6 @@
 # fpga_vertex_6_gtx_interface
 
-Serial communication between two Vertex 6 FPGA using vertex 6 GTx IP core. Simulation is done in Xilinx ISE 14.1 simualtor. Check the pdf file, FPGA_GTX_MANUAL in this repository for additional guideline realted to this specific repository. Output waveforms and additionals instructions are in the steps folder.
+Serial communication between two Vertex 6 FPGA using vertex 6 GTx IP core. Simulation is done in Xilinx ISE 14.1 simualtor. Check the pdf file, FPGA_GTX_MANUAL in this repository for additional guideline. Output waveforms and additionals instructions are in the steps folder.
 
 The design uses Block RAM based frame generators which provide incremental test data (HEX format) to the GTXs for transmission. You can modify the data transmitted by changing the INIT values of the frame generator in ``` vertex6_gtx_tx_component_top.v ``` & ```vertex6_gtx_rx_component_top.v``` files. 
 
