@@ -36,4 +36,3 @@ For using Block RAM of Vertex-6, check the following guide
 https://www.xilinx.com/support/documentation/user_guides/ug363.pdf
 
 
-If you face any difficulty open an issue on this repositroy or drop an email at arslanali800@hotmail.com.
